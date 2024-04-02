@@ -1,0 +1,13 @@
+.title{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.table{
+    width: 500px;
+    border: 1px solid black;
+}
+

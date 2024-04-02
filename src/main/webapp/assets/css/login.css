@@ -1,0 +1,212 @@
+:root {
+  /* Palette */
+  --green-color: #20ae44;
+  --red-color: #ff6124;
+  --yellow-color: #fae361;
+  --white-smoke-color: #f5f5f5;
+  --blue-dark-color: rgb(158, 167, 190);
+  --blue-main-color: rgb(206, 220, 255);
+  
+  --pink-light-color: rgb(255, 242, 245);
+  --blue-light-color: rgb(240, 250, 255);
+  --green-light-color: rgb(241, 250, 240);
+  --yellow-light-color: rgb(255, 247, 227);
+  --purple-light-color: rgb(242, 235, 255);
+
+  --black-main-color: rgb(100, 100, 100);
+
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --gray-white-color: #dcdcdc;
+  --gray-dark-color: #42413d;
+  --gray-color: #808080;
+  --silver-color: #c0c0c0;
+  --magenta-dark-color: #8b008b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* font */
+
+.text-title-font{
+  font-family: "Gowun Batang", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.text-content-font{
+  font-family: "Gowun Batang", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--gray-dark-color);
+}
+
+.login-title{
+  font-size: 50px;
+  font-weight: 700;
+  background-color: var(--blue-light-color);
+  color: var(--white-color);
+  text-align: center;
+  width: 400px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px 0 0 30px;
+}
+
+.logo {
+  font-family: "Nova Slim", system-ui;
+  font-size: 45pt;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--gray-dark-color);
+}
+
+.login-main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.login-wrapper {
+  border-radius: 0 30px 30px 0 ;
+  border: 2px solid var(--main-white-blue-color);
+  width: 400px;
+  height: 350px;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 2px solid var(--blue-light-color);
+}
+
+.login-wrapper > h2 {
+  font-family: "Nova Slim";
+  font-size: 24px;
+  color: var(--main-white-blue-color);
+  margin-bottom: 20px;
+}
+#login-form > input {
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+}
+#login-form > input::placeholder {
+  color: #d2d2d2;
+}
+#login-form > input[type="submit"] {
+  color: #fff;
+  font-size: 16px;
+  background-color: var(--blue-light-color);
+  margin-top: 20px;
+}
+#login-form > input[type="checkbox"] {
+  
+  display: none;
+}
+#login-form > label {
+  
+  color: #999999;
+}
+#login-form input[type="checkbox"] + label {
+  cursor: pointer;
+  padding-left: 26px;
+  background-image: url("checkbox.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#login-form input[type="checkbox"]:checked + label {
+  background-image: url("checkbox-active.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*회원가입*/
+.register-title{
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--main-white-blue-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray-dark-color);
+}
+
+.whole_register{
+  width: 50%;
+  border-radius: 30px;
+  border: 5px solid var(--blue-light-color);
+  padding: 20px;
+  margin: 20px;
+}
+
+
+#signinbtn{
+  font-family: "Nova Slim", system-ui;
+  color: var(--gray-dark-color); 
+  font-weight: bold;
+  font-size: 20px;
+  background-color: var(--blue-light-color);
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border-radius: 6px;
+}
+
+#register-form input{
+  width: 100%;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+}
+
+.register-name{
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--main-white-blue-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#register-form label{
+  color: var(--gray-color);
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+}
