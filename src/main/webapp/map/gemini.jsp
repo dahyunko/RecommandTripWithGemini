@@ -17,7 +17,7 @@
     <script src="./assets/js/key.js"></script>
     <script
       type="text/javascript"
-      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2542df776f47e9038ac94dd697a39019&libraries=services,clusterer,drawing"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=yourkey&libraries=services,clusterer,drawing"
     ></script>
     <script type="importmap">
       {
